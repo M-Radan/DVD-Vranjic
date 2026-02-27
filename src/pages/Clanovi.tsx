@@ -100,7 +100,7 @@ const Clanovi = () => {
         </div>
       </section>
 
-      {/* Upravni odbor */}
+      {/* Upravni odbor 
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
           <motion.div
@@ -139,9 +139,9 @@ const Clanovi = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section>  */}
 
-      {/* Sud časti */}
+      {/* Sud časti 
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <motion.div
@@ -181,7 +181,7 @@ const Clanovi = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section>  */}
 
       <Footer />
     </div>
