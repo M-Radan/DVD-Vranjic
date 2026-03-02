@@ -2,55 +2,71 @@ import { motion } from "framer-motion";
 import { Truck, Info } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import dacia from "../assets/dacia.jpg";
+import iveco7 from "../assets/iveco7.jpg";
+import iveco8 from "../assets/iveco8.jpg";
+import mercedes4 from "../assets/mercedes4.jpg";
+import mercedes6 from "../assets/mercedes6.jpg";
+import isuzu from "../assets/isuzu.jpg";
+import tam from "../assets/tam.jpg";
+
 
 const vehicles = [
   {
     id: 1,
-    name: "Navalno vozilo",
-    model: "Mercedes-Benz Atego",
-    year: "2015",
-    description: "Glavno navalno vozilo za gašenje požara s kapacitetom vode od 3000 litara.",
-    image: "https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?w=600&h=400&fit=crop",
+    name: "Vozilo za gašenje požara i spašavanje",
+    model: "Mercedes-Benz Axor",
+    year: "2009",
+    description: "Vozilo sa 280KS i spremnikom od 2500 litara vode, nosivosti 18 tona.",
+    image: mercedes6,
   },
   {
     id: 2,
-    name: "Tehničko vozilo",
-    model: "MAN TGM",
-    year: "2018",
-    description: "Vozilo opremljeno alatima za tehničke intervencije i spašavanje.",
-    image: "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?w=600&h=400&fit=crop",
+    name: "Vozilo za gašenje požara i spašavanje",
+    model: "TAM 190 T 15",
+    year: "1991",
+    description: "Veće navalno vatrogasno vozilo, nosivosti 15 tona, snaga motora 190 KS i spremnikom vode od 4500 litara.",
+    image: tam,
   },
   {
     id: 3,
-    name: "Zapovjedno vozilo",
-    model: "Volkswagen Transporter",
-    year: "2020",
-    description: "Vozilo za koordinaciju intervencija i prijevoz osoblja.",
-    image: "https://images.unsplash.com/photo-1612544448445-b8232cff3b6c?w=600&h=400&fit=crop",
+    name: "Vozilo za gašenje požara i spašavanje",
+    model: "Mercedes Benz 1834",
+    year: "1996",
+    description: "Vozilo nosivosti 18 tona, snage motora 450KS i spremnikom vode od 5200 litara.",
+    image: mercedes4,
   },
   {
     id: 4,
-    name: "Autocisterna",
-    model: "Iveco Eurocargo",
-    year: "2010",
-    description: "Vozilo za prijevoz i distribuciju vode na mjestima intervencije.",
-    image: "https://images.unsplash.com/photo-1586952519098-05a8f23c6d33?w=600&h=400&fit=crop",
+    name: "Vozilo za gašenje požara i spašavanj",
+    model: "Iveco Eurocargo 150E25 E5",
+    year: "2015",
+    description: "Manje navalno vatrogasno vozilo za gašenje požara, nosivosti 15 tona, snage motora 250 KS i spremnikom vode od 4200 litara.",
+    image: iveco7,
   },
   {
     id: 5,
-    name: "Kombi vozilo",
-    model: "Ford Transit",
+    name: "Vozilo za spašavanje s visina",
+    model: "Iveco Daily",
     year: "2019",
-    description: "Vozilo za prijevoz vatrogasne posade i opreme.",
-    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&h=400&fit=crop",
+    description: "Vozilo opremljeno dizalicom s košarom za spašavanje s visina, nosivosti 3.5 tone i snage motora 190 KS.",
+    image: iveco8,
   },
   {
     id: 6,
-    name: "Terensko vozilo",
-    model: "Toyota Land Cruiser",
-    year: "2017",
-    description: "Vozilo za intervencije na teško pristupačnim terenima.",
-    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&h=400&fit=crop",
+    name: "Zapovjedno vozilo",
+    model: "Isuzu D-Max",
+    year: "2023",
+    description: "Zapovjedno vozilo za koordinaciju intervencija i snage motora 120 KW.",
+    image: isuzu,
+  },
+   {
+    id: 7,
+    name: "Zapovjedno vozilo",
+    model: "Dacia Spring",
+    year: "2021",
+    description: "Električno zapovjedno vozilo za koordinaciju intervencija.",
+    image: dacia,
   },
 ];
 

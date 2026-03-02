@@ -128,7 +128,7 @@ const Kontakt = () => {
                   <div>
                     <h3 className="font-display font-semibold text-foreground mb-1">Radno vrijeme</h3>
                     <p className="text-muted-foreground">
-                      0-24, svaki dan
+                      0-24, Ponedjeljak-Nedjelja
                     </p>
                   </div>
                 </div>

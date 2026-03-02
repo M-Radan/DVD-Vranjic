@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 const milestones = [
   { year: "1990", title: "Osnutak društva", description: "DVD Vranjic osnovan je od strane lokalnih entuzijasta." },
   { year: "1990", title: "Prvo vozilo", description: "Nabavka prvog vatrogasnog vozila za brže intervencije." },
-  { year: "2019", title: "Nova vatrogasna postaja", description: "Otvorena moderna vatrogasna postaja u centru Vranjica." },
+  { year: "2017", title: "Novi vatrogasni dom", description: "Otvoren moderni vatrogasni dom u centru Vranjica." },
   { year: "2019", title: "Modernizacija opreme", description: "Nabavka suvremene opreme za gašenje i spašavanje." },
 ];
 
