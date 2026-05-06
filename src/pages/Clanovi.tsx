@@ -6,12 +6,14 @@ import Footer from "@/components/Footer";
 import hrvojeJakusImage from "@/assets/member-hrvoje-jakus.png";
 import marinMilanovicImage from "@/assets/member-marin-milanovic.png";
 import ivanMilisicImage from "@/assets/member-ivan-milisic.png";
-
+import bakyImage from "@/assets/baky.jpg";
+import kekacImage from "@/assets/kekac.jpg";
 const vodstvo = [
-  { id: 1, name: "Marin Milanović", role: "Zapovjednik", image: marinMilanovicImage },
+  { id: 1, name: "Marin Benzon", role: "Zapovjednik", image: kekacImage },
   { id: 2, name: "Ivan Milišić", role: "Zamjenik zapovjednika", image: ivanMilisicImage },
-  { id: 3, name: "Marin Benzon", role: "Tajnik", image: null },
-  { id: 4, name: "Hrvoje Jakus", role: "Predsjednik", image: hrvojeJakusImage },
+  { id: 3, name: "Marin Milanović", role: "Tajnik", image: marinMilanovicImage },
+  { id: 4, name: "Jerko Jurić", role: "Predsjednik", image: bakyImage },
+  { id: 5, name: "Hrvoje Jakus", role: "Dopredsjednik", image: hrvojeJakusImage },
 ];
 
 const upravniOdbor = [

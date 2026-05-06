@@ -38,7 +38,7 @@ const vehicles = [
   },
   {
     id: 4,
-    name: "Vozilo za gašenje požara i spašavanj",
+    name: "Vozilo za gašenje požara i spašavanje",
     model: "Iveco Eurocargo 150E25 E5",
     year: "2015",
     description: "Manje navalno vatrogasno vozilo za gašenje požara, nosivosti 15 tona, snage motora 250 KS i spremnikom vode od 4200 litara.",
